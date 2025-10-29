@@ -1,0 +1,79 @@
+[
+  {
+    "id": "slush-classic",
+    "nameEn": "Classic Slush Preparation",
+    "nameAr": "مستحضر السلاش الكلاسيكي",
+    "category": "slushes",
+    "descriptionEn": "Our classic powder preparation for slushes is the ideal solution for creating refreshing and thirst-quenching beverages. Available in over 30 unique flavors.",
+    "descriptionAr": "مستحضر البودرة الكلاسيكي للسلاش هو الحل الأمثل لإعداد المشروبات المنعشة. متاح بأكثر من 30 نكهة فريدة.",
+    "featuresEn": [
+      "Easy to use - just mix with water",
+      "Perfect consistency every time",
+      "Over 30 flavors available",
+      "High-quality ingredients",
+      "Ideal for bars, cafes, and events"
+    ],
+    "featuresAr": [
+      "سهل الاستخدام - اخلطه بالماء فقط",
+      "قوام مثالي في كل مرة",
+      "أكثر من 30 نكهة متاحة",
+      "مكونات عالية الجودة",
+      "مثالي للبارات والمقاهي والفعاليات"
+    ],
+    "flavors": [
+      "Lemon", "Strawberry", "Orange", "Mint", "Cola", "Blueberry",
+      "Raspberry", "Watermelon", "Peach", "Mango", "Pineapple", "Cherry",
+      "Grape", "Apple", "Kiwi", "Passion Fruit", "Coconut", "Banana",
+      "Lavender", "Mojito", "Maracuja", "Lychee", "Melon", "Ginger",
+      "Blackberry", "Apricot", "Lime", "Green Apple", "Cranberry", "Pomegranate"
+    ],
+    "image": "slush-classic.jpg"
+  },
+  {
+    "id": "slush-neutral",
+    "nameEn": "Neutral Base Slush",
+    "nameAr": "قاعدة السلاش المحايدة",
+    "category": "slushes",
+    "descriptionEn": "The NEUTRAL version of our slush preparation is perfect for those seeking a versatile and customizable base. Add your own syrups, juices, or fresh flavors to create unique combinations.",
+    "descriptionAr": "النسخة المحايدة من مستحضر السلاش مثالية لمن يبحث عن قاعدة متعددة الاستخدامات وقابلة للتخصيص. أضف الشراب أو العصائر أو النكهات الطازجة الخاصة بك لإنشاء تركيبات فريدة.",
+    "featuresEn": [
+      "Neutral base - no added flavors or colors",
+      "Complete customization freedom",
+      "Perfect for special events",
+      "Compatible with all syrups and flavors",
+      "Consistent quality base"
+    ],
+    "featuresAr": [
+      "قاعدة محايدة - بدون نكهات أو ألوان مضافة",
+      "حرية تخصيص كاملة",
+      "مثالي للفعاليات الخاصة",
+      "متوافق مع جميع الشرابات والنكهات",
+      "قاعدة ذات جودة ثابتة"
+    ],
+    "image": "slush-neutral.jpg"
+  },
+  {
+    "id": "slush-concentrate",
+    "nameEn": "Concentrated Slush Preparation",
+    "nameAr": "مستحضر السلاش المركز",
+    "category": "slushes",
+    "descriptionEn": "High-concentration slush preparation for maximum flavor intensity. More economical as you need less product per serving.",
+    "descriptionAr": "مستحضر سلاش عالي التركيز لأقصى كثافة نكهة. أكثر اقتصادية حيث تحتاج إلى كمية أقل من المنتج لكل حصة.",
+    "featuresEn": [
+      "Highly concentrated formula",
+      "Economical to use",
+      "Intense flavors",
+      "Long-lasting freshness",
+      "Professional quality"
+    ],
+    "featuresAr": [
+      "تركيبة عالية التركيز",
+      "اقتصادي في الاستخدام",
+      "نكهات مكثفة",
+      "نضارة طويلة الأمد",
+      "جودة احترافية"
+    ],
+    "image": "slush-concentrate.jpg"
+  }
+]
+

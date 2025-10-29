@@ -1,0 +1,144 @@
+[
+  {
+    "id": "soft-tuttigusti",
+    "nameEn": "Soft Tuttigusti (All Flavors Soft Serve)",
+    "nameAr": "سوفت توتيجوستي (سوفت سيرف جميع النكهات)",
+    "category": "ice-cream",
+    "descriptionEn": "Versatile soft serve base for all flavors. Create delicious soft serve ice cream in any flavor you desire. Perfect texture and consistency.",
+    "descriptionAr": "قاعدة سوفت سيرف متعددة الاستخدامات لجميع النكهات. اصنع آيس كريم سوفت سيرف لذيذ بأي نكهة تريدها. قوام واتساق مثاليان.",
+    "featuresEn": [
+      "Works with all flavors",
+      "Smooth, creamy texture",
+      "Excellent stability",
+      "Easy to dispense",
+      "Professional quality"
+    ],
+    "featuresAr": [
+      "يعمل مع جميع النكهات",
+      "قوام ناعم وكريمي",
+      "ثبات ممتاز",
+      "سهل التوزيع",
+      "جودة احترافية"
+    ],
+    "serving": "10% dilution ratio",
+    "image": "soft-tuttigusti.jpg"
+  },
+  {
+    "id": "soft-cioccolato",
+    "nameEn": "Soft Cioccolato (Chocolate Soft Serve)",
+    "nameAr": "سوفت تشوكولاتو (سوفت سيرف الشوكولاتة)",
+    "category": "ice-cream",
+    "descriptionEn": "Premium chocolate soft serve base. Rich, authentic chocolate flavor with perfect creamy consistency. A customer favorite.",
+    "descriptionAr": "قاعدة سوفت سيرف الشوكولاتة الفاخرة. نكهة شوكولاتة غنية وأصلية مع قوام كريمي مثالي. المفضل لدى العملاء.",
+    "featuresEn": [
+      "Rich chocolate flavor",
+      "Perfect for cones and cups",
+      "Excellent meltdown resistance",
+      "Attractive dark color",
+      "Premium cocoa content"
+    ],
+    "featuresAr": [
+      "نكهة شوكولاتة غنية",
+      "مثالي للأقماع والأكواب",
+      "مقاومة ممتازة للذوبان",
+      "لون داكن جذاب",
+      "محتوى كاكاو فاخر"
+    ],
+    "image": "soft-cioccolato.jpg"
+  },
+  {
+    "id": "soft-cioccolato-30",
+    "nameEn": "Soft Cioccolato 30",
+    "nameAr": "سوفت تشوكولاتو 30",
+    "category": "ice-cream",
+    "descriptionEn": "Concentrated chocolate soft serve base (30% mix). More economical and space-efficient while maintaining premium quality.",
+    "descriptionAr": "قاعدة سوفت سيرف الشوكولاتة المركزة (خليط 30٪). أكثر اقتصادية وفعالية في المساحة مع الحفاظ على الجودة الفاخرة.",
+    "featuresEn": [
+      "Concentrated formula (30%)",
+      "Cost-effective",
+      "Space-saving packaging",
+      "Same great taste",
+      "Easy storage"
+    ],
+    "featuresAr": [
+      "تركيبة مركزة (30٪)",
+      "فعال من حيث التكلفة",
+      "تغليف موفر للمساحة",
+      "نفس الطعم الرائع",
+      "تخزين سهل"
+    ],
+    "serving": "30% dilution ratio",
+    "image": "soft-cioccolato-30.jpg"
+  },
+  {
+    "id": "soft-tuttigusti-10",
+    "nameEn": "Soft Tuttigusti 10",
+    "nameAr": "سوفت توتيجوستي 10",
+    "category": "ice-cream",
+    "descriptionEn": "Super-concentrated all-flavors soft serve base (10% mix). Maximum economy and efficiency for high-volume operations.",
+    "descriptionAr": "قاعدة سوفت سيرف جميع النكهات فائقة التركيز (خليط 10٪). أقصى اقتصاد وكفاءة للعمليات ذات الحجم الكبير.",
+    "featuresEn": [
+      "Super concentrated (10%)",
+      "Maximum cost efficiency",
+      "Minimal storage space",
+      "Professional quality",
+      "Perfect for high volume"
+    ],
+    "featuresAr": [
+      "فائق التركيز (10٪)",
+      "أقصى كفاءة من حيث التكلفة",
+      "مساحة تخزين ضئيلة",
+      "جودة احترافية",
+      "مثالي للحجم الكبير"
+    ],
+    "serving": "10% dilution ratio",
+    "image": "soft-tuttigusti-10.jpg"
+  },
+  {
+    "id": "gelato-fiordilatte",
+    "nameEn": "Fiordilatte Gelato",
+    "nameAr": "جيلاتو فيورديلاتي",
+    "category": "ice-cream",
+    "descriptionEn": "Classic Italian fiordilatte (milk flower) gelato. The pure taste of milk in a creamy, authentic gelato.",
+    "descriptionAr": "جيلاتو فيورديلاتي الإيطالي الكلاسيكي (زهرة الحليب). طعم الحليب النقي في جيلاتو كريمي أصيل.",
+    "featuresEn": [
+      "Authentic Italian recipe",
+      "Pure milk flavor",
+      "Creamy texture",
+      "Versatile base",
+      "Traditional taste"
+    ],
+    "featuresAr": [
+      "وصفة إيطالية أصلية",
+      "نكهة حليب نقية",
+      "قوام كريمي",
+      "قاعدة متعددة الاستخدامات",
+      "طعم تقليدي"
+    ],
+    "image": "fiordilatte.jpg"
+  },
+  {
+    "id": "gelato-stracciatella",
+    "nameEn": "Stracciatella Gelato",
+    "nameAr": "جيلاتو ستراتشياتيلا",
+    "category": "ice-cream",
+    "descriptionEn": "Classic Italian stracciatella with chocolate chips. Creamy milk gelato with fine chocolate shavings.",
+    "descriptionAr": "ستراتشياتيلا الإيطالية الكلاسيكية مع رقائق الشوكولاتة. جيلاتو حليب كريمي مع حلاقة شوكولاتة دقيقة.",
+    "featuresEn": [
+      "Premium chocolate chips",
+      "Creamy base",
+      "Classic Italian flavor",
+      "Perfect texture",
+      "Customer favorite"
+    ],
+    "featuresAr": [
+      "رقائق شوكولاتة فاخرة",
+      "قاعدة كريمية",
+      "نكهة إيطالية كلاسيكية",
+      "قوام مثالي",
+      "المفضل لدى العملاء"
+    ],
+    "image": "stracciatella.jpg"
+  }
+]
+

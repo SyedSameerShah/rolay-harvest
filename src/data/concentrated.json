@@ -1,0 +1,101 @@
+[
+  {
+    "id": "milkshake-semiconcentrate",
+    "nameEn": "Milkshake Semiconcentrate Powder",
+    "nameAr": "بودرة شبه المركزة للميلك شيك",
+    "category": "concentrated",
+    "descriptionEn": "The versatile solution for creamy beverages. Our semiconcentrate powder for milkshakes is perfect for creating smooth, delicious milkshakes with authentic taste.",
+    "descriptionAr": "الحل المتعدد الاستخدامات للمشروبات الكريمية. بودرة شبه المركزة للميلك شيك مثالية لصنع ميلك شيك ناعم ولذيذ بطعم أصيل.",
+    "featuresEn": [
+      "Easy preparation - just add milk",
+      "Creamy texture",
+      "Multiple flavor options",
+      "Consistent quality",
+      "Professional results every time"
+    ],
+    "featuresAr": [
+      "تحضير سهل - أضف الحليب فقط",
+      "قوام كريمي",
+      "خيارات نكهات متعددة",
+      "جودة متسقة",
+      "نتائج احترافية في كل مرة"
+    ],
+    "flavors": [
+      "Chocolate", "Vanilla", "Strawberry", "Banana", "Caramel",
+      "Coffee", "Hazelnut", "Cookies & Cream", "Mint Chocolate"
+    ],
+    "image": "milkshake-semi.jpg"
+  },
+  {
+    "id": "hot-chocolate",
+    "nameEn": "Hot Chocolate Preparation",
+    "nameAr": "مستحضر الشوكولاتة الساخنة",
+    "category": "concentrated",
+    "descriptionEn": "Classic hot chocolate with premium ingredients. Rich, creamy, and indulgent - perfect for cold days or as a comforting treat.",
+    "descriptionAr": "شوكولاتة ساخنة كلاسيكية مع مكونات فاخرة. غنية وكريمية ومدللة - مثالية للأيام الباردة أو كمكافأة مريحة.",
+    "featuresEn": [
+      "Premium cocoa content",
+      "Rich and creamy texture",
+      "Easy to prepare",
+      "Can be served with whipped cream",
+      "Authentic Italian recipe"
+    ],
+    "featuresAr": [
+      "محتوى كاكاو فاخر",
+      "قوام غني وكريمي",
+      "سهل التحضير",
+      "يمكن تقديمه مع الكريمة المخفوقة",
+      "وصفة إيطالية أصلية"
+    ],
+    "image": "hot-chocolate.jpg"
+  },
+  {
+    "id": "frappe-concentrate",
+    "nameEn": "Frappé Concentrate",
+    "nameAr": "مركز الفرابيه",
+    "category": "concentrated",
+    "descriptionEn": "High-quality concentrate for perfect frappés. Create professional iced coffee beverages with rich flavor and smooth texture.",
+    "descriptionAr": "مركز عالي الجودة للفرابيه المثالي. اصنع مشروبات القهوة المثلجة الاحترافية بنكهة غنية وقوام ناعم.",
+    "featuresEn": [
+      "Authentic coffee flavor",
+      "Blends perfectly with ice",
+      "Multiple serving options",
+      "Quick preparation",
+      "Barista-quality results"
+    ],
+    "featuresAr": [
+      "نكهة قهوة أصلية",
+      "يمتزج بشكل مثالي مع الثلج",
+      "خيارات تقديم متعددة",
+      "تحضير سريع",
+      "نتائج بجودة الباريستا"
+    ],
+    "flavors": ["Classic Coffee", "Mocha", "Caramel", "Vanilla"],
+    "image": "frappe-concentrate.jpg"
+  },
+  {
+    "id": "smoothie-concentrate",
+    "nameEn": "Smoothie Base Concentrate",
+    "nameAr": "مركز قاعدة السموثي",
+    "category": "concentrated",
+    "descriptionEn": "Fruit smoothie concentrate for healthy and delicious beverages. Perfect base for adding fresh fruits and creating nutritious drinks.",
+    "descriptionAr": "مركز سموثي الفاكهة للمشروبات الصحية واللذيذة. قاعدة مثالية لإضافة الفواكه الطازجة وصنع مشروبات مغذية.",
+    "featuresEn": [
+      "Natural fruit extracts",
+      "Rich in flavor",
+      "Versatile - add your own fruits",
+      "Healthy option",
+      "Vibrant colors"
+    ],
+    "featuresAr": [
+      "مستخلصات فواكه طبيعية",
+      "غني بالنكهة",
+      "متعدد الاستخدامات - أضف فواكهك الخاصة",
+      "خيار صحي",
+      "ألوان نابضة بالحياة"
+    ],
+    "flavors": ["Tropical", "Berry Mix", "Mango", "Green Detox", "Strawberry Banana"],
+    "image": "smoothie-concentrate.jpg"
+  }
+]
+

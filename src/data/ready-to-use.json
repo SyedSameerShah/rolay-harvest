@@ -1,0 +1,97 @@
+[
+  {
+    "id": "base-bianca",
+    "nameEn": "Base Bianca (White Base)",
+    "nameAr": "قاعدة بيانكا (القاعدة البيضاء)",
+    "category": "ready-to-use",
+    "descriptionEn": "Ready-to-use white base for gelato. The perfect foundation for creating cream-based ice cream flavors. Professional quality, consistent results.",
+    "descriptionAr": "قاعدة بيضاء جاهزة للاستخدام للجيلاتو. الأساس المثالي لصنع نكهات الآيس كريم على أساس الكريمة. جودة احترافية، نتائج متسقة.",
+    "featuresEn": [
+      "Ready to use immediately",
+      "Creamy texture",
+      "Versatile base for multiple flavors",
+      "Professional formulation",
+      "Consistent quality"
+    ],
+    "featuresAr": [
+      "جاهز للاستخدام فورًا",
+      "قوام كريمي",
+      "قاعدة متعددة الاستخدامات لنكهات متعددة",
+      "تركيبة احترافية",
+      "جودة متسقة"
+    ],
+    "usageEn": "Perfect for vanilla, hazelnut, pistachio, and other cream-based flavors",
+    "usageAr": "مثالي للفانيليا والبندق والفستق والنكهات الأخرى القائمة على الكريمة",
+    "image": "base-bianca.jpg"
+  },
+  {
+    "id": "soft-serve-base-neutral",
+    "nameEn": "Neutral Soft Serve Base",
+    "nameAr": "قاعدة السوفت سيرف المحايدة",
+    "category": "ready-to-use",
+    "descriptionEn": "Neutral soft serve base ready for immediate use. Add your preferred flavors and colorings to create custom soft serve ice cream.",
+    "descriptionAr": "قاعدة سوفت سيرف محايدة جاهزة للاستخدام الفوري. أضف النكهات والألوان المفضلة لديك لإنشاء آيس كريم سوفت سيرف مخصص.",
+    "featuresEn": [
+      "Neutral flavor profile",
+      "Excellent texture and stability",
+      "Easy to customize",
+      "Quick setup",
+      "Professional results"
+    ],
+    "featuresAr": [
+      "ملف نكهة محايد",
+      "قوام وثبات ممتازان",
+      "سهل التخصيص",
+      "إعداد سريع",
+      "نتائج احترافية"
+    ],
+    "image": "soft-neutral.jpg"
+  },
+  {
+    "id": "gelato-base-fruit",
+    "nameEn": "Fruit Gelato Base",
+    "nameAr": "قاعدة جيلاتو الفاكهة",
+    "category": "ready-to-use",
+    "descriptionEn": "Specialized base for fruit-flavored gelato. Creates light, refreshing ice cream with authentic fruit taste.",
+    "descriptionAr": "قاعدة متخصصة لجيلاتو بنكهة الفاكهة. ينشئ آيس كريم خفيف ومنعش بطعم فاكهة أصيل.",
+    "featuresEn": [
+      "Optimized for fruit flavors",
+      "Light and refreshing",
+      "Excellent flavor release",
+      "Natural taste",
+      "Easy to work with"
+    ],
+    "featuresAr": [
+      "محسّن لنكهات الفاكهة",
+      "خفيف ومنعش",
+      "إطلاق نكهة ممتاز",
+      "طعم طبيعي",
+      "سهل العمل معه"
+    ],
+    "image": "gelato-fruit.jpg"
+  },
+  {
+    "id": "pasteurized-mix",
+    "nameEn": "Pasteurized Ice Cream Mix",
+    "nameAr": "خليط الآيس كريم المبستر",
+    "category": "ready-to-use",
+    "descriptionEn": "Premium pasteurized ice cream mix ready for freezing. Professional quality for artisanal gelato production.",
+    "descriptionAr": "خليط آيس كريم مبستر فاخر جاهز للتجميد. جودة احترافية لإنتاج الجيلاتو الحرفي.",
+    "featuresEn": [
+      "Fully pasteurized",
+      "Food safety compliant",
+      "Premium ingredients",
+      "Ready to freeze",
+      "Authentic Italian formula"
+    ],
+    "featuresAr": [
+      "مبستر بالكامل",
+      "متوافق مع سلامة الغذاء",
+      "مكونات فاخرة",
+      "جاهز للتجميد",
+      "تركيبة إيطالية أصلية"
+    ],
+    "image": "pasteurized-mix.jpg"
+  }
+]
+
