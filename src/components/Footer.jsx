@@ -16,14 +16,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About Section */}
           <div>
-            <img src="/logo.png" alt="Rolay Harvest" className="h-16 mb-4" />
-            <h3 className="text-xl font-serif font-bold mb-4">{t('footer.about')}</h3>
+            <img src="/logo.png" alt="royal Harvest" className="h-16 mb-4" />
+            <h3 className="text-xl font-serif font-bold mb-4 text-gold">{t('footer.about')}</h3>
             <p className="text-gray-300 mb-4">{t('footer.aboutText')}</p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-serif font-bold mb-4">{t('footer.quickLinks')}</h3>
+            <h3 className="text-xl font-serif font-bold mb-4 text-gold">{t('footer.quickLinks')}</h3>
             <ul className="space-y-2">
               <li>
                 <Link to="/" className="text-gray-300 hover:text-gold transition-colors">
@@ -55,7 +55,7 @@ const Footer = () => {
 
           {/* Products */}
           <div>
-            <h3 className="text-xl font-serif font-bold mb-4">{t('footer.products')}</h3>
+            <h3 className="text-xl font-serif font-bold mb-4 text-gold">{t('footer.products')}</h3>
             <ul className="space-y-2 text-gray-300">
               <li>Slushes & Granita</li>
               <li>Concentrated Preparations</li>
@@ -67,7 +67,7 @@ const Footer = () => {
 
           {/* Follow Us */}
           <div>
-            <h3 className="text-xl font-serif font-bold mb-4">{t('footer.followUs')}</h3>
+            <h3 className="text-xl font-serif font-bold mb-4 text-gold">{t('footer.followUs')}</h3>
             <div className="flex gap-4">
               <motion.a
                 href="#"
@@ -104,14 +104,38 @@ const Footer = () => {
               <p className="text-gray-300 mb-2">
                 <strong>BCD Ice Cream Partnership</strong>
               </p>
-              <a
+              {/* <a
                 href="https://bcdicecream.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gold hover:text-gold-light transition-colors"
               >
                 Visit BCD Ice Cream →
-              </a>
+              </a> */}
+            </div>
+            <div className="">
+              <h4 className="font-serif font-bold text-lg text-gold mb-2">{t('contact.contactInfo')}</h4>
+              <div className="text-gray-300 text-sm">
+                <p>{t('contact.contactInfoText')}</p>
+                <div className="mt-3 space-y-1">
+                  <div>
+                    <span className="font-semibold">{t('contact.phone')}:</span>{' '}
+                    <a href="tel:+971542521835" className="hover:text-gold transition-colors">
+                      {t('contact.phoneText')}
+                    </a>
+                  </div>
+                  <div>
+                    <span className="font-semibold">{t('contact.email')}:</span>{' '}
+                    <a href="mailto:info@royalharvestuae.com" className="hover:text-gold transition-colors">
+                      {t('contact.emailText')}
+                    </a>
+                  </div>
+                  <div>
+                    <span className="font-semibold">{t('contact.location')}:</span>{' '}
+                    {t('contact.locationText')}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -119,7 +143,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 text-sm">
-            © {currentYear} Rolay Harvest Foodstuff Traders FZE. {t('footer.rights')}
+            © {currentYear} royal Harvest Foodstuff Traders FZE. {t('footer.rights')}
           </p>
           <div className="flex gap-6 text-sm">
             <Link to="/privacy" className="text-gray-400 hover:text-gold transition-colors">

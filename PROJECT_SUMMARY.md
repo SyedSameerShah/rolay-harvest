@@ -1,8 +1,8 @@
-# Rolay Harvest Website - Project Summary
+# royal Harvest Website - Project Summary
 
 ## Overview
 
-A modern, animated, bilingual web application for Rolay Harvest, the exclusive distributor of BCD Ice Cream products in the UAE.
+A modern, animated, bilingual web application for royal Harvest, the exclusive distributor of BCD Ice Cream products in the UAE.
 
 ## ✅ Completed Features
 
@@ -164,7 +164,7 @@ Mobile-first approach:
 
 ## Color Palette
 
-Based on the Rolay Harvest logo:
+Based on the royal Harvest logo:
 - **Navy**: `#1e3a5f` (Primary brand color)
 - **Gold**: `#b8964f` (Accent color)
 - **Cream**: `#f5f1e8` (Background color)
@@ -172,7 +172,7 @@ Based on the Rolay Harvest logo:
 ## File Structure
 
 ```
-rolay-harvest/
+royal-harvest/
 ├── public/
 │   └── (logo.png - to be added)
 ├── src/
@@ -208,7 +208,7 @@ rolay-harvest/
 
 ## Next Steps
 
-1. **Add Logo**: Place the Rolay Harvest logo as `public/logo.png`
+1. **Add Logo**: Place the royal Harvest logo as `public/logo.png`
 2. **Test**: Run `npm run dev` and test all features
 3. **Customize**: Adjust content, colors, or features as needed
 4. **Deploy**: Follow DEPLOYMENT.md for hosting instructions

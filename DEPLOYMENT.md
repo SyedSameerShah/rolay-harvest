@@ -70,7 +70,7 @@ If you need environment variables (e.g., for form submission API):
 1. Create `.env` file:
 ```env
 VITE_API_URL=https://your-api-endpoint.com
-VITE_CONTACT_EMAIL=info@rolayharvest.com
+VITE_CONTACT_EMAIL=info@royalharvest.com
 ```
 
 2. Access in code:

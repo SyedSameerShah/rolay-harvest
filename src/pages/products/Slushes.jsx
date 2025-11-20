@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import ProductCard from '../../components/ProductCard';
 import slushesData from '../../data/slushes.json';
+import VideoBackground from '../../components/VideoBackground';
+import { GlassWater, Sparkles, Zap, Trophy, Search } from 'lucide-react';
 
 const Slushes = () => {
   const { t, i18n } = useTranslation();
@@ -24,30 +26,22 @@ const Slushes = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-cream to-white">
       {/* Hero Banner */}
-      <section className="relative py-32 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 overflow-hidden">
-        <div className="absolute inset-0">
-          <motion.div
-            className="absolute top-10 right-10 w-72 h-72 bg-white opacity-20 rounded-full blur-3xl"
-            animate={{
-              scale: [1, 1.2, 1],
-              x: [0, 50, 0],
-            }}
-            transition={{
-              duration: 8,
-              repeat: Infinity,
-              ease: "easeInOut"
-            }}
-          />
-        </div>
-
-        <div className="container mx-auto px-4 relative z-10">
+      <section className="relative pb-32 overflow-hidden">
+        <VideoBackground
+          videoSrc="/videos/slushes-hero.mp4"
+          posterSrc="/images/products/slush-classic.jpg"
+          overlayOpacity={0.5}
+        >
+          <div className="container mx-auto px-4 py-32">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <div className="text-8xl mb-6">🥤</div>
+            <div className="flex justify-center mb-6">
+              <GlassWater className="w-24 h-24 text-white" />
+            </div>
             <h1 className="text-5xl md:text-6xl font-serif font-bold text-white mb-6">
               {t('products.slushes.title')}
             </h1>
@@ -55,7 +49,8 @@ const Slushes = () => {
               {t('products.slushes.description')}
             </p>
           </motion.div>
-        </div>
+          </div>
+        </VideoBackground>
       </section>
 
       {/* Products Section */}
@@ -117,7 +112,9 @@ const Slushes = () => {
               animate={{ opacity: 1 }}
               className="text-center py-20"
             >
-              <div className="text-6xl mb-4">🔍</div>
+              <div className="flex justify-center mb-4">
+                <Search className="w-16 h-16 text-gray-400" />
+              </div>
               <p className="text-xl text-gray-600">
                 {i18n.language === 'ar' ? 'لم يتم العثور على منتجات' : 'No products found'}
               </p>
@@ -136,7 +133,9 @@ const Slushes = () => {
               viewport={{ once: true }}
               className="text-center p-6"
             >
-              <div className="text-5xl mb-4">✨</div>
+              <div className="flex justify-center mb-4">
+                <Sparkles className="w-12 h-12 text-gold" />
+              </div>
               <h3 className="text-xl font-serif font-bold text-navy mb-2">
                 {i18n.language === 'ar' ? '30+ نكهة' : '30+ Flavors'}
               </h3>
@@ -152,7 +151,9 @@ const Slushes = () => {
               transition={{ delay: 0.1 }}
               className="text-center p-6"
             >
-              <div className="text-5xl mb-4">⚡</div>
+              <div className="flex justify-center mb-4">
+                <Zap className="w-12 h-12 text-gold" />
+              </div>
               <h3 className="text-xl font-serif font-bold text-navy mb-2">
                 {i18n.language === 'ar' ? 'سهل الاستخدام' : 'Easy to Use'}
               </h3>
@@ -168,7 +169,9 @@ const Slushes = () => {
               transition={{ delay: 0.2 }}
               className="text-center p-6"
             >
-              <div className="text-5xl mb-4">🏆</div>
+              <div className="flex justify-center mb-4">
+                <Trophy className="w-12 h-12 text-gold" />
+              </div>
               <h3 className="text-xl font-serif font-bold text-navy mb-2">
                 {i18n.language === 'ar' ? 'جودة فاخرة' : 'Premium Quality'}
               </h3>

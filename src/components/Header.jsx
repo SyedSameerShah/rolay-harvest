@@ -56,7 +56,7 @@ const Header = () => {
           <Link to="/" className="flex items-center">
             <motion.img
               src="/logo.png"
-              alt="Rolay Harvest"
+              alt="royal Harvest"
               className={`transition-all duration-300 ${
                 isScrolled ? 'h-12' : 'h-16'
               }`}

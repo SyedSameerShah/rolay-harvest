@@ -1,13 +1,13 @@
-# Rolay Harvest - Premium Italian Ice Cream in UAE
+# royal Harvest - Premium Italian Ice Cream in UAE
 
-A modern, bilingual (English/Arabic) web application for Rolay Harvest, the exclusive distributor of BCD Ice Cream products in the UAE.
+A modern, bilingual (English/Arabic) web application for royal Harvest, the exclusive distributor of BCD Ice Cream products in the UAE.
 
 ## Features
 
 - ✨ **Modern & Animated UI** - Built with Framer Motion for smooth animations
 - 🌍 **Bilingual Support** - Full English and Arabic language support with RTL
 - 📱 **Fully Responsive** - Optimized for all devices
-- 🎨 **Premium Design** - Matching the Rolay Harvest brand aesthetic
+- 🎨 **Premium Design** - Matching the royal Harvest brand aesthetic
 - 🍦 **Product Showcase** - 4 product categories with detailed information
 - 📧 **Contact Form** - Business inquiry form with validation
 
@@ -35,7 +35,7 @@ npm install
 ```
 
 2. **IMPORTANT: Add Logo**
-   - Place the Rolay Harvest logo image as `public/logo.png`
+   - Place the royal Harvest logo image as `public/logo.png`
    - The logo should be in PNG format with a transparent background
    - Recommended size: 300x300px or similar aspect ratio
 
@@ -113,11 +113,11 @@ To add or update products, edit the JSON files in `src/data/`:
 
 ## Contact Information
 
-**Rolay Harvest Foodstuff Traders FZE**
+**royal Harvest Foodstuff Traders FZE**
 - Location: Dubai, United Arab Emirates
 - Partner: BCD Ice Cream (https://bcdicecream.com/)
 - Since: Exclusive partnership since 1982
 
 ## License
 
-© 2024 Rolay Harvest Foodstuff Traders FZE. All rights reserved.
+© 2024 royal Harvest Foodstuff Traders FZE. All rights reserved.

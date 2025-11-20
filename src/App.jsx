@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import Slushes from './pages/products/Slushes';
 import Concentrated from './pages/products/Concentrated';
@@ -11,13 +11,9 @@ import IceCream from './pages/products/IceCream';
 import './i18n/config';
 
 function App() {
-  useEffect(() => {
-    // Scroll to top on route change
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <Header />
         <AnimatePresence mode="wait">

@@ -17,9 +17,9 @@
     "contact": "Contact Us"
   },
   "about": {
-    "title": "About Rolay Harvest",
+    "title": "About royal Harvest",
     "subtitle": "Your Trusted Partner in Premium Frozen Desserts",
-    "description": "Rolay Harvest is the exclusive distributor of BCD Ice Cream products in the UAE. We bring over 40 years of Italian excellence in artisanal ice cream making to the Middle East market.",
+    "description": "royal Harvest is the exclusive distributor of BCD Ice Cream products in the UAE. We bring over 40 years of Italian excellence in artisanal ice cream making to the Middle East market.",
     "partnership": "Exclusive BCD Partnership",
     "partnershipDesc": "Partnered with BCD Ice Cream, a leader in artisanal ice cream since 1982",
     "quality": "Premium Quality",
@@ -52,7 +52,7 @@
     }
   },
   "why": {
-    "title": "Why Choose Rolay Harvest",
+    "title": "Why Choose royal Harvest",
     "subtitle": "Your success is our priority",
     "reason1": "Exclusive Partnership",
     "reason1Desc": "Only authorized distributor of BCD products in UAE",
@@ -82,10 +82,14 @@
     "location": "Location",
     "locationText": "Dubai, United Arab Emirates",
     "businessHours": "Business Hours",
-    "hoursText": "Sun - Thu: 9:00 AM - 6:00 PM"
+    "hoursText": "Sun - Thu: 9:00 AM - 6:00 PM",
+    "contactInfo": "Contact Information",
+    "contactInfoText": "For any inquiries or assistance, please contact us using the information below:",
+    "phoneText": "+971 54 252 1835 ",
+    "emailText": "info@royalharvestuae.com"
   },
   "footer": {
-    "about": "About Rolay Harvest",
+    "about": "About royal Harvest",
     "aboutText": "Premium Italian ice cream and frozen desserts distributor in UAE. Exclusive partner of BCD Ice Cream.",
     "quickLinks": "Quick Links",
     "products": "Products",

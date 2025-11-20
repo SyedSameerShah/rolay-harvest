@@ -15,22 +15,16 @@ const ProductCard = ({ product, category }) => {
       whileHover={{ y: -10, boxShadow: '0 20px 40px rgba(0,0,0,0.1)' }}
       transition={{ duration: 0.3 }}
     >
-      <div className="relative h-64 bg-gradient-to-br from-cream to-gold-light overflow-hidden">
+      <div className="relative h-64 overflow-hidden">
+        <img 
+          src={`/images/products/${product.image}`}
+          alt={name}
+          loading="lazy"
+          className="w-full h-full object-cover"
+        />
         <motion.div
           className="absolute inset-0 bg-navy opacity-0 group-hover:opacity-10 transition-opacity duration-300"
         />
-        <div className="absolute inset-0 flex items-center justify-center">
-          <motion.div
-            className="text-6xl"
-            whileHover={{ scale: 1.2, rotate: 10 }}
-            transition={{ duration: 0.3 }}
-          >
-            {category === 'slushes' && '🥤'}
-            {category === 'concentrated' && '☕'}
-            {category === 'ready-to-use' && '🍦'}
-            {category === 'ice-cream' && '🍨'}
-          </motion.div>
-        </div>
       </div>
 
       <div className="p-6">

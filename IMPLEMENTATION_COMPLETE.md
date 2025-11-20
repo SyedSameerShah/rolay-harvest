@@ -1,4 +1,4 @@
-# ✅ Implementation Complete - Rolay Harvest Website
+# ✅ Implementation Complete - royal Harvest Website
 
 ## 🎉 Project Status: **READY FOR USE**
 
@@ -78,7 +78,7 @@ All features have been successfully implemented and tested!
 ## 📁 File Structure
 
 ```
-rolay-harvest/
+royal-harvest/
 ├── 📄 Configuration Files
 │   ├── package.json              ✅ All dependencies installed
 │   ├── tailwind.config.js        ✅ Custom colors configured
@@ -232,7 +232,7 @@ Expected scores:
 
 ## 🎉 You're Ready!
 
-Your Rolay Harvest website is complete and ready to showcase your premium Italian ice cream products to the UAE market!
+Your royal Harvest website is complete and ready to showcase your premium Italian ice cream products to the UAE market!
 
 ### Next Steps:
 1. ✅ Add logo (`public/logo.png`)
@@ -251,7 +251,7 @@ If you need help:
 
 ---
 
-**Built with ❤️ for Rolay Harvest**
+**Built with ❤️ for royal Harvest**
 
 *Bringing premium Italian ice cream to the UAE since 1982*
 

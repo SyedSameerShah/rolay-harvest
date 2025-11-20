@@ -1,15 +1,15 @@
-# 🚀 Quick Start Guide - Rolay Harvest Website
+# 🚀 Quick Start Guide - royal Harvest Website
 
 ## Step 1: Add Your Logo ⚠️ IMPORTANT
 
-Your beautiful Rolay Harvest logo (the one with the crown, wheat, and navy/gold colors) needs to be saved:
+Your beautiful royal Harvest logo (the one with the crown, wheat, and navy/gold colors) needs to be saved:
 
 1. **Save the logo image you provided in our chat**
 2. **Name it**: `logo.png`
 3. **Place it in**: `public/logo.png`
 
 ```
-rolay-harvest/
+royal-harvest/
 ├── public/
 │   └── logo.png  ← Put your logo here!
 ```
@@ -50,7 +50,7 @@ The site will open at: **http://localhost:5173**
 
 ### Home Page (Single-page with sections):
 - ✅ Animated hero with your logo
-- ✅ About Rolay Harvest section
+- ✅ About royal Harvest section
 - ✅ Products overview (4 categories)
 - ✅ Why choose us section
 - ✅ Contact form
@@ -190,5 +190,5 @@ Then follow the deployment guide in `DEPLOYMENT.md` to put your site live!
 
 **Enjoy your new website! 🎉**
 
-The Rolay Harvest website is ready to showcase your premium Italian ice cream products to the UAE market! 🍦🇦🇪
+The royal Harvest website is ready to showcase your premium Italian ice cream products to the UAE market! 🍦🇦🇪
 

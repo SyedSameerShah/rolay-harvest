@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import ProductCard from '../../components/ProductCard';
 import readyToUseData from '../../data/ready-to-use.json';
+import VideoBackground from '../../components/VideoBackground';
+import { IceCream, Zap, ChefHat, CheckCircle, Search } from 'lucide-react';
 
 const ReadyToUse = () => {
   const { t, i18n } = useTranslation();
@@ -24,29 +26,22 @@ const ReadyToUse = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-cream to-white">
       {/* Hero Banner */}
-      <section className="relative py-32 bg-gradient-to-br from-pink-500 via-rose-500 to-red-500 overflow-hidden">
-        <div className="absolute inset-0">
-          <motion.div
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-white opacity-20 rounded-full blur-3xl"
-            animate={{
-              scale: [1, 1.3, 1],
-            }}
-            transition={{
-              duration: 8,
-              repeat: Infinity,
-              ease: "easeInOut"
-            }}
-          />
-        </div>
-
-        <div className="container mx-auto px-4 relative z-10">
+      <section className="relative pb-32 overflow-hidden">
+        <VideoBackground
+          videoSrc="/videos/ready-to-use-hero.mp4"
+          posterSrc="/images/products/base-bianca.jpg"
+          overlayOpacity={0.5}
+        >
+          <div className="container mx-auto px-4 py-32">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <div className="text-8xl mb-6">🍦</div>
+            <div className="flex justify-center mb-6">
+              <IceCream className="w-24 h-24 text-white" />
+            </div>
             <h1 className="text-5xl md:text-6xl font-serif font-bold text-white mb-6">
               {t('products.readyToUse.title')}
             </h1>
@@ -54,7 +49,8 @@ const ReadyToUse = () => {
               {t('products.readyToUse.description')}
             </p>
           </motion.div>
-        </div>
+          </div>
+        </VideoBackground>
       </section>
 
       {/* Products Section */}
@@ -116,7 +112,9 @@ const ReadyToUse = () => {
               animate={{ opacity: 1 }}
               className="text-center py-20"
             >
-              <div className="text-6xl mb-4">🔍</div>
+              <div className="flex justify-center mb-4">
+                <Search className="w-16 h-16 text-gray-400" />
+              </div>
               <p className="text-xl text-gray-600">
                 {i18n.language === 'ar' ? 'لم يتم العثور على منتجات' : 'No products found'}
               </p>
@@ -135,7 +133,9 @@ const ReadyToUse = () => {
               viewport={{ once: true }}
               className="text-center p-6"
             >
-              <div className="text-5xl mb-4">⚡</div>
+              <div className="flex justify-center mb-4">
+                <Zap className="w-12 h-12 text-gold" />
+              </div>
               <h3 className="text-xl font-serif font-bold text-navy mb-2">
                 {i18n.language === 'ar' ? 'جاهز فورًا' : 'Instant Ready'}
               </h3>
@@ -151,7 +151,9 @@ const ReadyToUse = () => {
               transition={{ delay: 0.1 }}
               className="text-center p-6"
             >
-              <div className="text-5xl mb-4">👨‍🍳</div>
+              <div className="flex justify-center mb-4">
+                <ChefHat className="w-12 h-12 text-gold" />
+              </div>
               <h3 className="text-xl font-serif font-bold text-navy mb-2">
                 {i18n.language === 'ar' ? 'احترافي' : 'Professional'}
               </h3>
@@ -167,7 +169,9 @@ const ReadyToUse = () => {
               transition={{ delay: 0.2 }}
               className="text-center p-6"
             >
-              <div className="text-5xl mb-4">✅</div>
+              <div className="flex justify-center mb-4">
+                <CheckCircle className="w-12 h-12 text-gold" />
+              </div>
               <h3 className="text-xl font-serif font-bold text-navy mb-2">
                 {i18n.language === 'ar' ? 'نتائج متسقة' : 'Consistent Results'}
               </h3>

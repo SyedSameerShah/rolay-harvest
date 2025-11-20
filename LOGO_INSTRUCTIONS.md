@@ -25,7 +25,7 @@ The logo image you provided needs to be saved as `public/logo.png` in the projec
 
 ### File structure:
 ```
-rolay-harvest/
+royal-harvest/
 ├── public/
 │   └── logo.png  ← Place your logo here!
 ├── src/

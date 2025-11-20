@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import ProductCard from '../../components/ProductCard';
 import concentratedData from '../../data/concentrated.json';
+import VideoBackground from '../../components/VideoBackground';
+import { Coffee, Flame, Target, MapPin, Search } from 'lucide-react';
 
 const Concentrated = () => {
   const { t, i18n } = useTranslation();
@@ -24,30 +26,22 @@ const Concentrated = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-cream to-white">
       {/* Hero Banner */}
-      <section className="relative py-32 bg-gradient-to-br from-amber-500 via-orange-500 to-red-500 overflow-hidden">
-        <div className="absolute inset-0">
-          <motion.div
-            className="absolute bottom-10 left-10 w-72 h-72 bg-white opacity-20 rounded-full blur-3xl"
-            animate={{
-              scale: [1, 1.2, 1],
-              x: [0, -50, 0],
-            }}
-            transition={{
-              duration: 8,
-              repeat: Infinity,
-              ease: "easeInOut"
-            }}
-          />
-        </div>
-
-        <div className="container mx-auto px-4 relative z-10">
+      <section className="relative pb-32 overflow-hidden">
+        <VideoBackground
+          videoSrc="/videos/concentrated-hero.mp4"
+          posterSrc="/images/products/frappe-concentrate.jpg"
+          overlayOpacity={0.5}
+        >
+          <div className="container mx-auto px-4 py-32">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <div className="text-8xl mb-6">☕</div>
+            <div className="flex justify-center mb-6">
+              <Coffee className="w-24 h-24 text-white" />
+            </div>
             <h1 className="text-5xl md:text-6xl font-serif font-bold text-white mb-6">
               {t('products.concentrated.title')}
             </h1>
@@ -55,7 +49,8 @@ const Concentrated = () => {
               {t('products.concentrated.description')}
             </p>
           </motion.div>
-        </div>
+          </div>
+        </VideoBackground>
       </section>
 
       {/* Products Section */}
@@ -117,7 +112,9 @@ const Concentrated = () => {
               animate={{ opacity: 1 }}
               className="text-center py-20"
             >
-              <div className="text-6xl mb-4">🔍</div>
+              <div className="flex justify-center mb-4">
+                <Search className="w-16 h-16 text-gray-400" />
+              </div>
               <p className="text-xl text-gray-600">
                 {i18n.language === 'ar' ? 'لم يتم العثور على منتجات' : 'No products found'}
               </p>
@@ -136,7 +133,9 @@ const Concentrated = () => {
               viewport={{ once: true }}
               className="text-center p-6"
             >
-              <div className="text-5xl mb-4">💪</div>
+              <div className="flex justify-center mb-4">
+                <Flame className="w-12 h-12 text-gold" />
+              </div>
               <h3 className="text-xl font-serif font-bold text-navy mb-2">
                 {i18n.language === 'ar' ? 'تركيز عالي' : 'High Concentration'}
               </h3>
@@ -152,7 +151,9 @@ const Concentrated = () => {
               transition={{ delay: 0.1 }}
               className="text-center p-6"
             >
-              <div className="text-5xl mb-4">🎯</div>
+              <div className="flex justify-center mb-4">
+                <Target className="w-12 h-12 text-gold" />
+              </div>
               <h3 className="text-xl font-serif font-bold text-navy mb-2">
                 {i18n.language === 'ar' ? 'متعدد الاستخدامات' : 'Versatile'}
               </h3>
@@ -168,7 +169,9 @@ const Concentrated = () => {
               transition={{ delay: 0.2 }}
               className="text-center p-6"
             >
-              <div className="text-5xl mb-4">🇮🇹</div>
+              <div className="flex justify-center mb-4">
+                <MapPin className="w-12 h-12 text-gold" />
+              </div>
               <h3 className="text-xl font-serif font-bold text-navy mb-2">
                 {i18n.language === 'ar' ? 'صنع في إيطاليا' : 'Made in Italy'}
               </h3>

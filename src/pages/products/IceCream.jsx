@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import ProductCard from '../../components/ProductCard';
 import iceCreamData from '../../data/ice-cream.json';
+import VideoBackground from '../../components/VideoBackground';
+import { IceCream2, Sparkles, Star, Award, Search } from 'lucide-react';
 
 const IceCream = () => {
   const { t, i18n } = useTranslation();
@@ -24,30 +26,22 @@ const IceCream = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-cream to-white">
       {/* Hero Banner */}
-      <section className="relative py-32 bg-gradient-to-br from-teal-500 via-cyan-500 to-blue-500 overflow-hidden">
-        <div className="absolute inset-0">
-          <motion.div
-            className="absolute top-20 right-20 w-72 h-72 bg-white opacity-20 rounded-full blur-3xl"
-            animate={{
-              scale: [1, 1.2, 1],
-              y: [0, 50, 0],
-            }}
-            transition={{
-              duration: 8,
-              repeat: Infinity,
-              ease: "easeInOut"
-            }}
-          />
-        </div>
-
-        <div className="container mx-auto px-4 relative z-10">
+      <section className="relative pb-32 overflow-hidden">
+        <VideoBackground
+          videoSrc="/videos/ice-cream-hero.mp4"
+          posterSrc="/images/products/soft-cioccolato.jpg"
+          overlayOpacity={0.5}
+        >
+          <div className="container mx-auto px-4 py-32">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <div className="text-8xl mb-6">🍨</div>
+            <div className="flex justify-center mb-6">
+              <IceCream2 className="w-24 h-24 text-white" />
+            </div>
             <h1 className="text-5xl md:text-6xl font-serif font-bold text-white mb-6">
               {t('products.iceCream.title')}
             </h1>
@@ -55,7 +49,8 @@ const IceCream = () => {
               {t('products.iceCream.description')}
             </p>
           </motion.div>
-        </div>
+          </div>
+        </VideoBackground>
       </section>
 
       {/* Products Section */}
@@ -117,7 +112,9 @@ const IceCream = () => {
               animate={{ opacity: 1 }}
               className="text-center py-20"
             >
-              <div className="text-6xl mb-4">🔍</div>
+              <div className="flex justify-center mb-4">
+                <Search className="w-16 h-16 text-gray-400" />
+              </div>
               <p className="text-xl text-gray-600">
                 {i18n.language === 'ar' ? 'لم يتم العثور على منتجات' : 'No products found'}
               </p>
@@ -136,7 +133,9 @@ const IceCream = () => {
               viewport={{ once: true }}
               className="text-center p-6"
             >
-              <div className="text-5xl mb-4">🍦</div>
+              <div className="flex justify-center mb-4">
+                <Sparkles className="w-12 h-12 text-gold" />
+              </div>
               <h3 className="text-xl font-serif font-bold text-navy mb-2">
                 {i18n.language === 'ar' ? 'جيلاتو أصيل' : 'Authentic Gelato'}
               </h3>
@@ -152,7 +151,9 @@ const IceCream = () => {
               transition={{ delay: 0.1 }}
               className="text-center p-6"
             >
-              <div className="text-5xl mb-4">🌟</div>
+              <div className="flex justify-center mb-4">
+                <Star className="w-12 h-12 text-gold" />
+              </div>
               <h3 className="text-xl font-serif font-bold text-navy mb-2">
                 {i18n.language === 'ar' ? 'قوام كريمي' : 'Creamy Texture'}
               </h3>
@@ -168,7 +169,9 @@ const IceCream = () => {
               transition={{ delay: 0.2 }}
               className="text-center p-6"
             >
-              <div className="text-5xl mb-4">🏅</div>
+              <div className="flex justify-center mb-4">
+                <Award className="w-12 h-12 text-gold" />
+              </div>
               <h3 className="text-xl font-serif font-bold text-navy mb-2">
                 {i18n.language === 'ar' ? '40+ سنة خبرة' : '40+ Years Experience'}
               </h3>
