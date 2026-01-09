@@ -367,7 +367,7 @@ const Home = () => {
                   </div>
                 </div>
 
-                <div className="bg-white p-6 rounded-xl shadow-lg">
+                {/* <div className="bg-white p-6 rounded-xl shadow-lg">
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0">
                       <Handshake className="w-8 h-8 text-gold" />
@@ -379,17 +379,17 @@ const Home = () => {
                       <p className="text-gray-600 mb-3">
                         Exclusive distributor of BCD Ice Cream products
                       </p>
-                      {/* <a
+                      <a
                         href="https://bcdicecream.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gold hover:text-gold-dark font-medium inline-flex items-center"
                       >
                         Visit BCD Ice Cream →
-                      </a> */}
+                      </a>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </motion.div>
             </div>
           </motion.div>

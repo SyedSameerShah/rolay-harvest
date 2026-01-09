@@ -61,7 +61,7 @@ const Footer = () => {
               <li>Concentrated Preparations</li>
               <li>Ready-to-Use Bases</li>
               <li>Ice Cream & Soft Serve</li>
-              <li>BCD Ice Cream Products</li>
+              {/* <li>BCD Ice Cream Products</li> */}
             </ul>
           </div>
 
@@ -102,7 +102,7 @@ const Footer = () => {
             </div>
             <div className="mt-6">
               <p className="text-gray-300 mb-2">
-                <strong>BCD Ice Cream Partnership</strong>
+                {/* <strong>BCD Ice Cream Partnership</strong> */}
               </p>
               {/* <a
                 href="https://bcdicecream.com/"
