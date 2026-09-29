@@ -7,7 +7,8 @@
     "slushes": "Slushes",
     "concentrated": "Concentrated",
     "readyToUse": "Ready-to-Use",
-    "iceCream": "Ice Cream"
+    "iceCream": "Ice Cream",
+    "deli": "Deli"
   },
   "hero": {
     "title": "Premium Italian Ice Cream in UAE",
@@ -49,6 +50,10 @@
     "iceCream": {
       "title": "Ice Cream & Soft Serve",
       "description": "Premium gelato and soft serve bases for authentic Italian taste"
+    },
+    "deli": {
+      "title": "Deli & Charcuterie",
+      "description": "French cold cuts, 100% Halal, made in Dubai — smoked meats, mortadella, and breakfast strips"
     }
   },
   "why": {
@@ -85,7 +90,7 @@
     "hoursText": "Sun - Thu: 9:00 AM - 6:00 PM",
     "contactInfo": "Contact Information",
     "contactInfoText": "For any inquiries or assistance, please contact us using the information below:",
-    "phoneText": "+971 54 252 1835 ",
+    "phoneText": "+971 586686182",
     "emailText": "info@royalharvestuae.com"
   },
   "footer": {

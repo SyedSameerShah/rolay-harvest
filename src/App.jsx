@@ -8,6 +8,7 @@ import Slushes from './pages/products/Slushes';
 import Concentrated from './pages/products/Concentrated';
 import ReadyToUse from './pages/products/ReadyToUse';
 import IceCream from './pages/products/IceCream';
+import Deli from './pages/products/Deli';
 import './i18n/config';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path="/products/concentrated" element={<Concentrated />} />
             <Route path="/products/ready-to-use" element={<ReadyToUse />} />
             <Route path="/products/ice-cream" element={<IceCream />} />
+            <Route path="/products/deli" element={<Deli />} />
           </Routes>
         </AnimatePresence>
         <Footer />

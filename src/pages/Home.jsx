@@ -206,6 +206,13 @@ const Home = () => {
                   image: 'soft-tuttigusti.jpg',
                   gradient: 'from-teal-400 to-cyan-400'
                 },
+                {
+                  title: t('products.deli.title'),
+                  desc: t('products.deli.description'),
+                  link: '/products/deli',
+                  image: 'p-mortadella-chicken.jpg',
+                  gradient: 'from-rose-400 to-red-400'
+                },
               ].map((product, index) => (
                 <motion.div
                   key={index}

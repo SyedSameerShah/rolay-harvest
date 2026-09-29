@@ -50,6 +50,11 @@ const Footer = () => {
                   {t('nav.iceCream')}
                 </Link>
               </li>
+              <li>
+                <Link to="/products/deli" className="text-gray-300 hover:text-gold transition-colors">
+                  {t('nav.deli')}
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -61,6 +66,7 @@ const Footer = () => {
               <li>Concentrated Preparations</li>
               <li>Ready-to-Use Bases</li>
               <li>Ice Cream & Soft Serve</li>
+              <li>Deli & Charcuterie</li>
               {/* <li>BCD Ice Cream Products</li> */}
             </ul>
           </div>
@@ -120,7 +126,7 @@ const Footer = () => {
                 <div className="mt-3 space-y-1">
                   <div>
                     <span className="font-semibold">{t('contact.phone')}:</span>{' '}
-                    <a href="tel:+971542521835" className="hover:text-gold transition-colors">
+                    <a href="tel:+971586686182" className="hover:text-gold transition-colors">
                       {t('contact.phoneText')}
                     </a>
                   </div>
