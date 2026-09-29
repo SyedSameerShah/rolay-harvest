@@ -20,7 +20,7 @@
       "وصفات فرنسية",
       "مصنوع في دبي"
     ],
-    "image": "p-turkey-breast.jpg"
+    "image": "deli-placeholder.jpg"
   },
   {
     "id": "smoked-chicken-breast",
@@ -43,7 +43,7 @@
       "وصفات فرنسية",
       "مصنوع في دبي"
     ],
-    "image": "p-chicken-breast.jpg"
+    "image": "deli-placeholder.jpg"
   },
   {
     "id": "smoked-turkey-breakfast-strips",
@@ -66,7 +66,7 @@
       "وصفات فرنسية",
       "مصنوع في دبي"
     ],
-    "image": "p-turkey-breakfast-strips.jpg"
+    "image": "deli-placeholder.jpg"
   },
   {
     "id": "chicken-mortadella-paprika",
@@ -89,7 +89,7 @@
       "وصفات فرنسية",
       "مصنوع في دبي"
     ],
-    "image": "p-mortadella-chicken-paprika.jpg"
+    "image": "deli-placeholder.jpg"
   },
   {
     "id": "chicken-mortadella-olives",
@@ -112,7 +112,7 @@
       "وصفات فرنسية",
       "مصنوع في دبي"
     ],
-    "image": "p-mortadella-chicken-olives.jpg"
+    "image": "deli-placeholder.jpg"
   },
   {
     "id": "smoked-turkey-thigh-ham",
@@ -135,7 +135,7 @@
       "وصفات فرنسية",
       "مصنوع في دبي"
     ],
-    "image": "p-turkey-thigh-ham.jpg"
+    "image": "deli-placeholder.jpg"
   },
   {
     "id": "chicken-mortadella",
@@ -158,7 +158,7 @@
       "وصفات فرنسية",
       "مصنوع في دبي"
     ],
-    "image": "p-mortadella-chicken.jpg"
+    "image": "deli-placeholder.jpg"
   },
   {
     "id": "beef-breakfast-strips",
@@ -181,7 +181,7 @@
       "وصفات فرنسية",
       "مصنوع في دبي"
     ],
-    "image": "p-beef-breakfast-strips.jpg"
+    "image": "deli-placeholder.jpg"
   },
   {
     "id": "beef-mortadella",
@@ -204,7 +204,7 @@
       "وصفات فرنسية",
       "مصنوع في دبي"
     ],
-    "image": "p-mortadella-beef.jpg"
+    "image": "deli-placeholder.jpg"
   },
   {
     "id": "beef-pepperoni",
@@ -227,7 +227,7 @@
       "وصفات فرنسية",
       "مصنوع في دبي"
     ],
-    "image": "p-pepperoni-beef.jpg"
+    "image": "deli-placeholder.jpg"
   },
   {
     "id": "beef-mortadella-olives",
@@ -250,7 +250,7 @@
       "وصفات فرنسية",
       "مصنوع في دبي"
     ],
-    "image": "p-mortadella-beef-olives.jpg"
+    "image": "deli-placeholder.jpg"
   },
   {
     "id": "beef-pastrami",
@@ -273,7 +273,7 @@
       "وصفات فرنسية",
       "مصنوع في دبي"
     ],
-    "image": "p-pastrami-beef.jpg"
+    "image": "deli-placeholder.jpg"
   },
   {
     "id": "beef-mortadella-paprika",
@@ -296,7 +296,7 @@
       "وصفات فرنسية",
       "مصنوع في دبي"
     ],
-    "image": "p-mortadella-beef-paprika.jpg"
+    "image": "deli-placeholder.jpg"
   },
   {
     "id": "chicken-mortadella-black-pepper",
@@ -319,7 +319,7 @@
       "وصفات فرنسية",
       "مصنوع في دبي"
     ],
-    "image": "p-mortadella-chicken-blackpepper.jpg"
+    "image": "deli-placeholder.jpg"
   },
   {
     "id": "beef-salami",
@@ -342,7 +342,7 @@
       "وصفات فرنسية",
       "مصنوع في دبي"
     ],
-    "image": "p-salami-beef.jpg"
+    "image": "deli-placeholder.jpg"
   },
   {
     "id": "chicken-mortadella-pistachio",
@@ -365,6 +365,6 @@
       "وصفات فرنسية",
       "مصنوع في دبي"
     ],
-    "image": "p-mortadella-chicken-pistachio.jpg"
+    "image": "deli-placeholder.jpg"
   }
 ]

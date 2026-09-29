@@ -29,7 +29,7 @@ const Deli = () => {
       <section className="relative pb-32 overflow-hidden">
         <VideoBackground
           videoSrc="/videos/deli-hero.mp4"
-          posterSrc="/images/products/p-mortadella-chicken.jpg"
+          posterSrc="/images/products/deli-placeholder.jpg"
           overlayOpacity={0.5}
         >
           <div className="container mx-auto px-4 py-32">

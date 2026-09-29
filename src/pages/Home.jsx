@@ -210,7 +210,7 @@ const Home = () => {
                   title: t('products.deli.title'),
                   desc: t('products.deli.description'),
                   link: '/products/deli',
-                  image: 'p-mortadella-chicken.jpg',
+                  image: 'deli-placeholder.jpg',
                   gradient: 'from-rose-400 to-red-400'
                 },
               ].map((product, index) => (
